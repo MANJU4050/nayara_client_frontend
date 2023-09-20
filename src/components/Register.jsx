@@ -1,11 +1,11 @@
 import React, { useState, useRef } from "react";
 import * as Yup from "yup";
 import { Formik } from "formik";
-import styles from "../assets/css/modules/RegisterVehicle.module.css";
+import styles from "../assets/css/Register.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useParams, useNavigate } from "react-router-dom";
 import { ClipLoader } from "react-spinners";
-import _register from "../api/register";
+import {_register} from "../api/register";
 import nayara from "../assets/images/nayara.jpg";
 import {
   faUser,
@@ -263,7 +263,7 @@ const Register = () => {
                       <div className={styles.registering}>
                         {" "}
                         Registering
-                        <ClipLoader color="red" />{" "}
+                        <ClipLoader color="white" />{" "}
                       </div>
                     ) : (
                       "Register"

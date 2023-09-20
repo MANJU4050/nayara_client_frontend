@@ -152,6 +152,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     min-height: 1.8rem;
   }
 
